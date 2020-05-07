@@ -9,6 +9,7 @@ class CartsController < ApplicationController
 
   def show
     @items = @cart.retrieve_items
+    # changes 
   end
 
   def destroy
